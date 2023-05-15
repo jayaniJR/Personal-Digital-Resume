@@ -1,10 +1,16 @@
+//----------variables-----------
+@import "./variables";
+
+//----------dots----------------
+@import "./dots";
+
 body {
-    background-color : whitesmoke !important;
+    background-color : $bgColor !important;
     font-size : 12px !important;
 }
 
 .container {
-     background-color : whitesmoke;
+     background-color : $bgColor;
 }
 
 p {
@@ -43,11 +49,11 @@ ul {
 
 .technical-space, hr {
     padding-top: 10px;
-    background-color : #E6E6FA;
+    background-color : $techSpaceColor;
 }
 
 a, h4 {
-    color : 008080 !important;
+    color : $primaryHeadingColor !important;
 }
 
 a {
@@ -55,45 +61,13 @@ a {
 }
 
 h5 {
-    color: cadetblue !important;
+    color: $secondaryHeadingColor !important;
 }
 
 h6 {
     padding-top: 20px !important;
 }
 
-.container {
-    .profile-wrapper {
-        .card-body {
-            .skills {
-                .tech-1, .tech-2, .tech-3{
-                    .dot-1, .dot-2, .dot-3, .dot-4, .dot-5 {
-                        width: 10px !important;
-                        height: 14 !important;
-                        border-radius: 100%;
-                        background-color: cadetblue !important;
-                        margin: 1px 1px;
-                    }
-                }
 
-                .tech-4, .tech-5 {
-                    .dot-1, .dot-2, .dot-3, .dot-4 {
-                        width: 10px !important;
-                        height: 14 !important;
-                        border-radius: 100%;
-                        background-color: cadetblue !important;
-                        margin: 1px 1px;
-                    }
-                    .dot-5 {
-                        width: 10px !important;
-                        height: 14 !important;
-                        border-radius: 100%;
-                        border: 1px solid cadetblue !important;
-                        margin: 1px 1px;
-                    }
-                }
-            }
-        }
-    }
-}
+
 
