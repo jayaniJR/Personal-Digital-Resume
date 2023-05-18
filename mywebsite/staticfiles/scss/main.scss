@@ -1,0 +1,122 @@
+//----------variables-----------
+@import "staticfiles/scss/variables";
+
+//----------dots----------------
+@import "staticfiles/scss/dots";
+
+//----------mixins----------------
+@import "staticfiles/scss/mixins";
+
+//----------helpers----------------
+@import "staticfiles/scss/helpers";
+
+
+body {
+    background-color : $bgColor !important;
+    font-size : $bodyFontSize !important;
+    font-family: Montserrat !important;
+
+    .container {
+        .card-body {
+            background-color : $bgColor;
+            .profile-wrapper{
+                text-align: center;
+                .profile-pic {
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 50%;
+                  margin-left: auto;
+                  margin-right: auto;
+                }
+                a, h4 {
+                    color : $primaryHeadingColor !important;
+                }
+                a {
+                    text-decoration: unset !important;
+                }
+                p {
+                    line-height : 1.2;
+                }
+                ul {
+                    padding: 0;
+                    list-style-type: none;
+                }
+                .social-links ul, li {
+                    list-style-type: none;
+                }
+            }
+            p {
+                line-height : 1.2;
+            }
+            a, h4 {
+                color : $primaryHeadingColor !important;
+            }
+            a {
+                text-decoration: unset !important;
+            }
+            .pro-skills {
+                .technical-margin {
+                    margin-top: 20px;
+                    .technical-space, hr {
+                        padding-top: 10px;
+                        background-color : $techSpaceColor;
+                    }
+                }
+                .skills {
+                    .languages {
+                        .main-topic {
+                            p {
+                                line-height : 1.2;
+                            }
+                        }
+                        .measure-skills {
+                            .tech-1 {
+                                @import dots;
+                            }
+                        }
+                    }
+                    .frameworks {
+                        .main-topic {
+                            p {
+                                line-height : 1.2;
+                            }
+                        }
+                        .measure-skills {
+                            .tech-1 {
+                                @import dots;
+                            }
+                        }
+                    }
+                }
+                .technical-space, hr {
+                    padding-top: 10px;
+                    background-color : $techSpaceColor;
+                }
+                p {
+                    line-height : 1.2;
+                }
+                h5 {
+                    color: $secondaryHeadingColor !important;
+                }
+            }
+            h5 {
+                color: $secondaryHeadingColor !important;
+            }
+            h6 {
+                padding-top: 20px !important;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
