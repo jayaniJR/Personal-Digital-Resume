@@ -1,14 +1,15 @@
 //----------variables-----------
-@import '../variables';
+@import "staticfiles/scss/variables";
 
 //----------dots----------------
-@import '../dots';
+@import "staticfiles/scss/dots";
 
 //----------mixins----------------
-@import '../mixins';
+@import "staticfiles/scss/mixins";
 
 //----------helpers----------------
-@import '../helpers';
+@import "staticfiles/scss/helpers";
+
 
 body {
     background-color : $bgColor !important;
